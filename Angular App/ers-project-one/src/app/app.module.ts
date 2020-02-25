@@ -8,6 +8,8 @@ import { LoginComponent } from './components/content/login/login.component';
 import { EmployeeViewComponent } from './components/content/employee-view/employee-view.component';
 import { ManagerViewComponent } from './components/content/manager-view/manager-view.component';
 import { ErsRequestsComponent } from './components/content/ers-requests/ers-requests.component';
+import { MgrHeaderComponent } from './components/mgr-header/mgr-header.component';
+import { MainComponent } from './components/main/main.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +18,9 @@ import { ErsRequestsComponent } from './components/content/ers-requests/ers-requ
     LoginComponent,
     EmployeeViewComponent,
     ManagerViewComponent,
-    ErsRequestsComponent
+    ErsRequestsComponent,
+    MgrHeaderComponent,
+    MainComponent
   ],
   imports: [
     BrowserModule,
