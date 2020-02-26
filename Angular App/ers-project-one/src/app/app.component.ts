@@ -8,7 +8,7 @@ import { Component } from '@angular/core';
 
 export class AppComponent {
   title = 'ers-project-one';ng
-  name = '';
+
 }
 export class EmpHeaderComponent{
   title = 'Employee Header Options';ng: any
